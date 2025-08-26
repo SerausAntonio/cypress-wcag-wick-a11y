@@ -1,0 +1,19 @@
+{
+  "name": "cypress-wcag-wick-a11y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open --env enableAccessibilityVoice=true"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "cypress": "^15.0.0"
+  },
+  "dependencies": {
+    "wick-a11y": "^2.0.1"
+  }
+}
